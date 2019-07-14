@@ -1,0 +1,6 @@
+FROM nginx:1.15-alpine
+
+COPY design-patterns /var/www/design-patterns
+COPY infra/docker/nginx/conf.d/ /etc/nginx/conf.d/
+
+EXPOSE 80
