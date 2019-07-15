@@ -1,0 +1,7 @@
+{
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/php-code-coverage": "^5.3"
+    }
+}

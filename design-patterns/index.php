@@ -1,4 +1,4 @@
 <?php
 
-
-echo "HERE WE GO AGAIN";
+//FACTOY PATTERN
+include('factory/FootballerFactory.php');
