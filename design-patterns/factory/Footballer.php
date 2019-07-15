@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Factory;
 
-use DesignPatterns\Factory\FootballerFactory;
+
 class Footballer
 {
 	private $footballer;
@@ -19,3 +19,6 @@ class Footballer
 		return $this->footballer . ' ' . $this->club;
 	}
 }
+
+$ronaldo = SportsmanFactory::create('Ronaldo', 'Juventus');
+print_r($ronaldo->getFootballer());

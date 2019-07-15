@@ -4,7 +4,7 @@ namespace DesignPatterns\Factory;
 
 use DesignPatterns\Factory\Footballer;
 
-class FootballerFactory
+class SportsmanFactory
 {
 	public static function create($footballer, $club)
 	{
