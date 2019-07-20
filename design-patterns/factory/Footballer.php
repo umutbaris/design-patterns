@@ -16,7 +16,12 @@ class Footballer
 
 	public function getFootballer()
 	{
-		return $this->footballer . ' ' . $this->club;
+	$footballer = [ 'designPattern'  => 'FACTORY',
+					'footballerName' => $this->footballer, 
+					'clubName' => $this->club 
+				];
+	
+	return json_encode($footballer, true);
 	}
 }
 
