@@ -7,6 +7,9 @@ One of the most commonly used design patterns is the factory pattern. In this pa
 
 https://github.com/umutbariskarasar/design-patterns/tree/master/design-patterns/factory
 
+* ## Strategy
+
+It is used to hide implementation details of algorithms needed to perform an operation. Having strategies, the client can choose needed algorithm without knowing actual implementation and apply it to perform the operation.
 
 ### Sources
 * _https://designpatternsphp.readthedocs.io_
