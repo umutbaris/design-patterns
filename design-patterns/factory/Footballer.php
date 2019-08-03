@@ -24,6 +24,3 @@ class Footballer
 	return json_encode($footballer, true);
 	}
 }
-
-$ronaldo = SportsmanFactory::create('Ronaldo', 'Juventus');
-print_r($ronaldo->getFootballer());

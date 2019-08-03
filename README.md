@@ -15,3 +15,4 @@ It is used to hide implementation details of algorithms needed to perform an ope
 * _https://designpatternsphp.readthedocs.io_
 * _https://phptherightway.com_
 * _https://medium.com/@ivorobioff/the-5-most-common-design-patterns-in-php-applications-7f33b6b7d8d6_
+* _https://refactoring.guru/_

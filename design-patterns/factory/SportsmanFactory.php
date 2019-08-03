@@ -11,3 +11,5 @@ class SportsmanFactory
 		return new Footballer($footballer, $club);
 	}
 }
+$ronaldo = SportsmanFactory::create('Ronaldo', 'Juventus');
+print_r($ronaldo->getFootballer());
