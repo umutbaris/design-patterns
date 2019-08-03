@@ -1,15 +1,12 @@
 <?php
 
 namespace DesignPatterns\Strategy;
-
-class CmsPrice implements \StrategyInterface
+class CmsPrice implements StrategyInterface
 {
-
-	public function getPrice() 
+	public function getPrice(Product $product) 
 	{
 		//price request to database and get price
 		$price = 200;
-
-		return $price;
+		return $product;
 	}
 }

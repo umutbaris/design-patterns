@@ -2,13 +2,13 @@
 
 namespace DesignPatterns\Strategy;
 
-class EshopPrice implements \StrategyInterface
+class EshopPrice implements StrategyInterface
 {
-	public function getPrice() 
+	public function getPrice(Product $product) 
 	{
-		//price request to service and get price
-		$price = 100;
+		//price request to database and get price
+		$price = 200;
 
-		return $price;
+		return $product;
 	}
 }
